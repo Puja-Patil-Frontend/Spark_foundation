@@ -1,0 +1,176 @@
+/* .hero-img{
+    height: 100vh;
+    width: 200%;
+}
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+.hero-content{
+    height: 100vh;
+    background-color: #87b7f1;
+    color: #f6f3f3;
+    /* padding: 3rem; */
+    /* border-bottom-left-radius: 45rem;
+    border-bottom-right-radius: 45rem; */
+/* }
+.social-icons{
+    color:rgb(9, 9, 9);
+    margin-left: 300px;
+}
+
+.github{
+    color:rgb(23, 21, 21);
+    padding-left: 60px; 
+    margin-left: 250px;
+}
+
+.linkedin{
+    color:black;
+    padding-left: 20px; 
+    margin-left: 250px;
+}
+ */ 
+ html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(61, 64, 246);
+}
+
+/* splash screen css starts here  */
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #23abd1 url("https://media.giphy.com/media/xTk9ZvMnbIiIew7IpW/giphy.gif") no-repeat center center;
+    z-index: 99999;
+}
+/* splash screen css ends here  */
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: #ebd7cc!important;
+}
+
+.navbar-brand{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5rem;
+    color: #3d0cec!important;
+    text-align: center;
+}
+
+.nav-link{
+    color: #2719ec!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color: #f8a5f0;
+}
+/* navbar css ends here  */
+
+/* here content css starts here  */
+.hero-content{
+    height: 100vh;
+    background-color: #3b8bec;
+    color: #ffffff;
+    padding: 3rem;
+    border-bottom-left-radius: 45rem;
+    border-bottom-right-radius: 45rem;
+    margin-bottom: 1vh;
+}
+
+.hero-img{
+    height: 70vh;
+    width: 100%;
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+.get-started{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: rgb(146, 59, 59);
+    color: #86d1f4!important;
+    transition: 0.3s;
+   
+}
+
+.get-started:hover{
+    text-decoration: none;
+    background-color: #0b0d0d;
+
+}
+/* here content css starts here  */
+
+/* get-started-buttons css starts here*/
+.get-started-content{
+    height: 60vh;
+    background-color: #ff8a65;
+    border-top-left-radius: 42rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row{
+    padding: 25vh 0;
+}
+
+.get-started-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #039be5;
+    color: #fff!important;
+    transition: 0.3s;
+}
+
+.get-started-content a:hover{
+    background-color: #017ab6;
+    text-decoration: none;
+}
+/* get-started-buttons css end here*/
+
+/* footer css starts here */
+footer{
+    margin-top: 100px;
+    background-color: #3bcdf1;
+    height: 50px;
+    width:1200px;
+}
+
+.moneyimg{
+    width:100px;
+    height:100px;
+}
+.social-icons li{
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+   
+}
+
+.github{
+    color: #24292e;
+   
+}
+
+.linkedin{
+    color: #0a4e72;
+    
+}
+
+.google{
+    color: #f78277;
+}
